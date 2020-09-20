@@ -3,12 +3,19 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 8rem;
     color: cornsilk;
+    margin-bottom: 12rem;
+    margin-left: 22%;
+    margin-top: 4rem;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #04d3da;
 }
 
 button {
     color:black;
+    margin-left: 13rem;
+    
 }
 
 .flip {
@@ -17,7 +24,7 @@ button {
 }
 
 .trans {
-    transform: scale(2);
+    transform: scale(4);
     transition: transform 330ms ease-in-out;
 
 }
