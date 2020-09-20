@@ -8,5 +8,16 @@ h1 {
 }
 
 button {
-    color:white;
+    color:black;
+}
+
+.flip {
+    transform: rotate(0.5turn);
+    transition: transform 3300ms ease-in-out;
+}
+
+.trans {
+    transform: scale(2);
+    transition: transform 330ms ease-in-out;
+
 }

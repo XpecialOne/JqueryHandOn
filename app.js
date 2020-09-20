@@ -44,3 +44,13 @@ function random_txt2_color() {
   
     }
 
+
+$("button:eq(3)").click( function() {
+    // $(this).css({'transform': 'rotate(30deg)'});
+    $(this).toggleClass('flip');
+});
+
+$("button:eq(4)").click( function() {
+    // $(this).css({'transform': 'rotate(30deg)'});
+    $(this).toggleClass('trans');
+});
